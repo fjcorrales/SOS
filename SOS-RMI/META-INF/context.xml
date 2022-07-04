@@ -1,0 +1,11 @@
+<Context>
+	<Resource name="jdbc/GeoETSIINF"
+		auth="Container"
+		type="javax.sql.DataSource"
+		username="rest"
+		password="rest"
+		driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://localhost:3306/GeoETSIINF?useSSL=false"
+		maxActive="6"
+		maxIdle="3"/>
+</Context>
